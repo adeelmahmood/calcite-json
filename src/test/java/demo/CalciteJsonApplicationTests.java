@@ -41,9 +41,6 @@ public class CalciteJsonApplicationTests {
 			System.out.println(tables.getString(2));
 			System.out.println(tables.getString(3));
 			System.out.println(tables.getString(4));
-			
-//			conn.createStatement().execute("select * from " + tables.getString(3));
-			
 			System.out.println("-->");
 		}
 
