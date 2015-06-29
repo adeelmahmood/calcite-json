@@ -1,0 +1,14 @@
+{
+  version: '1.0',
+  defaultSchema: 'PEOPLE',
+  schemas: [
+    {
+      name: 'PEOPLE',
+      type: 'custom',
+      factory: 'demo.JsonSchemaFactory',
+      operand: {
+        directory: '/Users/adeelq/Documents/workspace-sts-3.6.3.SR1/calcite-json/src/test/resources/files'
+      }
+    }
+  ]
+}
